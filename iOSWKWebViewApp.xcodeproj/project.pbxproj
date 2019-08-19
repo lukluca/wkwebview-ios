@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1803175230B429200239FF7 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1803174230B429200239FF7 /* ThirdViewController.swift */; };
+		A1803178230B445700239FF7 /* WKWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1803177230B445700239FF7 /* WKWebViewController.swift */; };
 		A1C717AA230B3AAE00768AF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C717A9230B3AAE00768AF3 /* AppDelegate.swift */; };
 		A1C717AC230B3AAE00768AF3 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C717AB230B3AAE00768AF3 /* FirstViewController.swift */; };
 		A1C717AE230B3AAE00768AF3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C717AD230B3AAE00768AF3 /* SecondViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A1803174230B429200239FF7 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		A1803177230B445700239FF7 /* WKWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebViewController.swift; sourceTree = "<group>"; };
 		A1C717A6230B3AAD00768AF3 /* iOSWKWebViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSWKWebViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1C717A9230B3AAE00768AF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1C717AB230B3AAE00768AF3 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +41,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A1803176230B434B00239FF7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A1C717AB230B3AAE00768AF3 /* FirstViewController.swift */,
+				A1C717AD230B3AAE00768AF3 /* SecondViewController.swift */,
+				A1803174230B429200239FF7 /* ThirdViewController.swift */,
+				A1803177230B445700239FF7 /* WKWebViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		A1C7179D230B3AAD00768AF3 = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +71,8 @@
 		A1C717A8230B3AAD00768AF3 /* iOSWKWebViewApp */ = {
 			isa = PBXGroup;
 			children = (
+				A1803176230B434B00239FF7 /* ViewControllers */,
 				A1C717A9230B3AAE00768AF3 /* AppDelegate.swift */,
-				A1C717AB230B3AAE00768AF3 /* FirstViewController.swift */,
-				A1C717AD230B3AAE00768AF3 /* SecondViewController.swift */,
 				A1C717AF230B3AAE00768AF3 /* Main.storyboard */,
 				A1C717B2230B3AAF00768AF3 /* Assets.xcassets */,
 				A1C717B4230B3AAF00768AF3 /* LaunchScreen.storyboard */,
@@ -138,8 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1803178230B445700239FF7 /* WKWebViewController.swift in Sources */,
 				A1C717AE230B3AAE00768AF3 /* SecondViewController.swift in Sources */,
 				A1C717AA230B3AAE00768AF3 /* AppDelegate.swift in Sources */,
+				A1803175230B429200239FF7 /* ThirdViewController.swift in Sources */,
 				A1C717AC230B3AAE00768AF3 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
