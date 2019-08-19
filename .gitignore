@@ -233,3 +233,11 @@ iOSInjectionProject/
 **/xcshareddata/WorkspaceSettings.xcsettings
 
 # End of https://www.gitignore.io/api/xcode,swift,appcode,intellij
+
+#Added files for start project and after add folder under git
+
+/.idea/misc.xml
+/.idea/iOSWKWebViewApp.iml
+/.idea/modules.xml
+/.idea/vcs.xml
+/.idea/xcode.xml
