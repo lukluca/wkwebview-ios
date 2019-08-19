@@ -1,6 +1,6 @@
 # iOS WKWebView
 
-An example on build an iOS app sharing some businnes logic using Kotlin/Native
+An example on build an iOS app sharing some business logic using Kotlin/Native
 
 ## Built With
 
