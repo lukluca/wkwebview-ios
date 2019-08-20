@@ -9,7 +9,6 @@
 import UIKit
 
 class ThirdViewController: WKWebViewController {
-    
     override var pageUrl: String {
         return "https://weirdorconfusing.com/"
     }

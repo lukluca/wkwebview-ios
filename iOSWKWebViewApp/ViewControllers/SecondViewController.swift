@@ -9,7 +9,6 @@
 import UIKit
 
 class SecondViewController: WKWebViewController {
-    
     override var pageUrl: String {
         return "https://www.boredbutton.com/"
     }

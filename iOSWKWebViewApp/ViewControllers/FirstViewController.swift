@@ -9,7 +9,6 @@
 import UIKit
 
 class FirstViewController: WKWebViewController {
-    
     override var pageUrl: String {
         return "https://theuselessweb.com/"
     }
